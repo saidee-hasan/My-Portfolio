@@ -1,11 +1,22 @@
-import React from 'react';
+
+
+import SineUp from "./Login.js/SineUp";
+import { Dashboard } from "@mui/icons-material";
+
+
 
 const Admin = () => {
-    return (
-        <div>
-            hh
-        </div>
-    );
+ 
+
+  return (
+    <>
+
+      <SineUp></SineUp>
+    <Dashboard></Dashboard>
+
+      
+    </>
+  );
 };
 
 export default Admin;
