@@ -11,7 +11,6 @@ export const UserContaxt = createContext();
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [loggedInUser, setloggedInUser] = useState({});
-  console.log(loggedInUser)
   return (
     <UserContaxt.Provider value={[loggedInUser, setloggedInUser]}>
 

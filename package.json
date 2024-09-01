@@ -1,9 +1,11 @@
 {
-  "name": "rishav-chanda-portfolio",
+  "name": "saidee-hasan-portfolio",
   "version": "0.1.0",
-  "homepage": "https://rishavchanda.github.io",
+  "homepage": "https://github.com/saideeWD",
   "private": true,
   "dependencies": {
+    "@coreui/coreui-pro": "^5.4.0",
+    "@coreui/react-pro": "^5.5.0",
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
@@ -13,8 +15,12 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
+    "babel-plugin-react-css-modules": "^5.2.6",
+    "bootstrap": "^5.3.3",
     "emailjs": "^4.0.2",
     "firebase": "^10.12.5",
+    "flowbite": "^2.5.1",
+    "flowbite-react": "^0.10.1",
     "gh-pages": "^3.2.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -22,6 +28,7 @@
     "react-router-dom": "^6.26.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.7",
+    "react-toastify": "^10.0.5",
     "styled-components": "^5.3.5",
     "typewriter-effect": "^2.19.0",
     "web-vitals": "^2.1.4"
@@ -54,6 +61,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.10",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.9"
   }

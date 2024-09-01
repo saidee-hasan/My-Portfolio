@@ -1,10 +1,6 @@
 
 
-import SineUp from "./Login.js/SineUp";
-import { Dashboard } from "@mui/icons-material";
-
-
-
+import SineUp from"./SineUp/SineUp"
 const Admin = () => {
  
 
@@ -12,7 +8,7 @@ const Admin = () => {
     <>
 
       <SineUp></SineUp>
-    <Dashboard></Dashboard>
+    
 
       
     </>
