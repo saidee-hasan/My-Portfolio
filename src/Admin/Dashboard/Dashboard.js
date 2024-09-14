@@ -32,7 +32,8 @@ const Dashboard = () => {
     return (
         <div className='text-white text-center'>
 
-Admin DashBoard
+
+
 
         </div>
     );
