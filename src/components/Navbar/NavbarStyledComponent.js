@@ -4,7 +4,7 @@ import _default from '../../themes/default';
 
 export const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
-    height: 80px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;

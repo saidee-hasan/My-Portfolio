@@ -1,6 +1,6 @@
 .box {
     position: relative;
-
+padding: 5px;
     background-color: rgba(0, 0, 0, 0.75);
     border-radius: 20px;
     display: flex;
@@ -20,7 +20,7 @@
       transparent,
       #00ccff
     );
-    animation: animate 2s linear infinite;
+    animation: animate 5s linear infinite;
     animation-delay: -1s;
   }
   .box::after {
@@ -34,7 +34,7 @@
       transparent,
       #ff00d9
     );
-    animation: animate 2s linear infinite;
+    animation: animate 3s linear infinite;
   }
   .box span {
     inset: 5px;

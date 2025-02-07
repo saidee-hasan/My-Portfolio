@@ -35,7 +35,7 @@ const [openModal, setOpenModal] = useState({ state: false, project: null });
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-          <img style={{width:'7rem'}}  src="https://i.ibb.co/yqwgbbZ/green-blue-infinity-logo-template-vector-1858670-1-removebg-preview.png" alt="" /> <Span>Portfolio</Span>
+          <img  className='w-12' src="https://i.ibb.co/yqwgbbZ/green-blue-infinity-logo-template-vector-1858670-1-removebg-preview.png" alt="" /> <Span>Portfolio</Span>
           </a>
         </NavLogo>
         <MobileIcon>
@@ -52,7 +52,7 @@ const [openModal, setOpenModal] = useState({ state: false, project: null });
 
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
+          <GitHubButton href={Bio.resume}  download="resume.pdf"  target="_blank">Resume Download</GitHubButton>
         </ButtonContainer>
         {
           isOpen &&
